@@ -1,0 +1,8 @@
+теcт: phone1=+7 890 123 45 67&phone2=+1234567890&phone3=+7 890 123 45 678&phone4=+1 234 567 890
+ответ: {"phone1": "phone"}, "11": {"phone2": "text"}, "12": {"phone3": "text"}, "13": {"phone4": "text"}
+
+теcт: email1=example@mail.ru&email2=user.name123@mail.ru&email3=my.email+category@mail.ru&email4=example@mail.com&email5=user@domain.ru&email6=.username@mail.ru
+ответ: "14": {"email1": "email"}, "15": {"email2": "email"}, "16": {"email3": "email"}, "17": {"email4": "text"}, "18": {"email5": "text"}, "19": {"email6": "email"}
+
+теcт: date1=31.12.2022&date2=2023-01-15&date3=2023.08.31&date4=2023.02.30
+ответ: "23": {"date1": "data"}, "24": {"date2": "data"}, "25": {"date3": "text"}, "26": {"date4": "text"}
